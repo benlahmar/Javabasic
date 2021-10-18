@@ -30,6 +30,7 @@ public class Test {
 		//setp 4
 		Statement st = con.createStatement();
 		//step 5
+		
 		ResultSet rs = st.executeQuery("select * from etudiant ");
 		while(rs.next())
 		{
